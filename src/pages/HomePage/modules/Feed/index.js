@@ -27,6 +27,7 @@ const Feed = () => {
     };
 
     authApiCall({ path, callback });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <FeedContainer>
