@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage Tests should match snapshots 1`] = `
+Array [
+  <header
+    className="sc-kAyceB iXdGGS"
+  >
+    <div>
+      <input
+        aria-label="Search"
+        name="search"
+        onChange={[Function]}
+        onKeyUp={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+    </div>
+  </header>,
+  <div
+    className="sc-aXZVg gBwDzS"
+  >
+    <nav
+      className="sc-imWYAI jGrkqA"
+    >
+      <ul>
+        <li
+          className="active"
+        >
+          Home
+        </li>
+        <li>
+          My Profile
+        </li>
+        <li>
+          Connections
+        </li>
+        <li>
+          Messages
+        </li>
+        <li>
+          Settings
+        </li>
+        <li
+          onClick={[Function]}
+          role="button"
+        >
+          Logout
+        </li>
+      </ul>
+    </nav>
+    <main
+      className="sc-dcJsrY ceaRFB"
+    >
+      <div
+        className="sc-eqUAAy hIDAJa card"
+      >
+        <div
+          className="sc-fqkvVR hOFLUZ input-container"
+        >
+          <img
+            alt="Avatar"
+            className="avatar"
+          />
+          <textarea
+            onChange={[Function]}
+            placeholder="What's happening?"
+            value=""
+          />
+        </div>
+        <div>
+          <button
+            className="sc-gEvEer hmIAwj"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Post
+          </button>
+        </div>
+      </div>
+      <section>
+        <p
+          className="card"
+        >
+          No Results found
+        </p>
+      </section>
+    </main>
+  </div>,
+]
+`;

@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Component page Shared posts should match snapshot 1`] = `
+<div
+  className="sc-aXZVg fRzBGV card"
+  data-testid="post-container"
+>
+  <div
+    className="sc-gEvEer jWtOBt"
+  >
+    <img
+      alt="Urooj"
+      className="avatar"
+      src="https://my-campus-bucket-staging.s3.amazonaws.com/media/profile_picture/23/01/19/c675af77-eae6-4fa6-b6d5-746d732e6e87.jpeg"
+    />
+    <div>
+      <p
+        className="user_name"
+      >
+        Urooj Khurshid
+      </p>
+      <p
+        className="course_of_study"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-aXZVg kUeanE card"
+    data-testid=""
+  >
+    <div
+      className="sc-gEvEer jWtOBt"
+    >
+      <img
+        alt="Steven"
+        className="avatar"
+        src="user.png"
+      />
+      <div>
+        <p
+          className="user_name"
+        >
+          Steven David
+        </p>
+        <p
+          className="course_of_study"
+        >
+          accelerated professional science masters 
+        </p>
+      </div>
+    </div>
+    <div>
+      <p>
+        New Space. Nice ...
+      </p>
+    </div>
+    <div>
+      <span>
+        0
+         Likes 
+      </span>
+      <span>
+        0
+         Comments 
+      </span>
+      <span>
+        1
+         Shares
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Post Component page should match snapshot 1`] = `
+<div
+  className="sc-aXZVg fRzBGV card"
+  data-testid="post-container"
+>
+  <div
+    className="sc-gEvEer jWtOBt"
+  >
+    <img
+      alt="Steven"
+      className="avatar"
+      src="user.png"
+    />
+    <div>
+      <p
+        className="user_name"
+      >
+        Steven David
+      </p>
+      <p
+        className="course_of_study"
+      >
+        accelerated professional science masters 
+      </p>
+    </div>
+  </div>
+  <div>
+    <p>
+      New Post Like Pls
+    </p>
+  </div>
+  <div>
+    <span>
+      2
+       Likes 
+    </span>
+    <span>
+      0
+       Comments 
+    </span>
+    <span>
+      0
+       Shares
+    </span>
+  </div>
+</div>
+`;

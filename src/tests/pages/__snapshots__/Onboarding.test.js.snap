@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Onboarding Tests /login should match snapshots 1`] = `
+<div
+  className="sc-aXZVg gvMYYg"
+>
+  <p>
+    A Safe Place for Students to Connect with Each Other,
+    <br />
+    Engage in Transactions, and Succeed During their
+    <br />
+     College Career.
+  </p>
+  <div
+    className="sc-gEvEer gFGtKu"
+  >
+    <div>
+      <h2>
+        Hey, welcome back!
+      </h2>
+      <p>
+        Continue enjoying amazing discoveries
+      </p>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="sc-dcJsrY elahPx"
+      >
+        <label
+          htmlFor="email"
+        >
+          Enter your university email
+          :
+        </label>
+        <input
+          disabled={false}
+          id="email"
+          name="email"
+          onChange={[Function]}
+          placeholder="exampl@kumail.com"
+          required={true}
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-dcJsrY elahPx"
+      >
+        <label
+          htmlFor="password"
+        >
+          Enter a password
+          :
+        </label>
+        <input
+          disabled={false}
+          id="password"
+          name="password"
+          onChange={[Function]}
+          placeholder="Enter your password"
+          required={true}
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="sc-fqkvVR hsobOz"
+        data-testid="loginBtn"
+        disabled={false}
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+    <div
+      className="sc-eqUAAy hqsFEm"
+    >
+      <p>
+        Don't have an account ?
+         
+        <span
+          className="text-primary"
+        >
+          Sign Up
+        </span>
+      </p>
+      <p
+        className="text-primary"
+      >
+        Forgot your password ?
+      </p>
+      <p>
+        By clicking on 'Login' you've agreed to the
+        <br />
+        <span
+          className="text-primary"
+        >
+          Terms of Use
+        </span>
+         and
+         
+        <span
+          className="text-primary"
+        >
+          Privacy Policy.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Onboarding Tests /register should match snapshots 1`] = `
+<div
+  className="sc-aXZVg gvMYYg"
+>
+  <p>
+    A Safe Place for Students to Connect with Each Other,
+    <br />
+    Engage in Transactions, and Succeed During their
+    <br />
+     College Career.
+  </p>
+  <div
+    className="sc-gEvEer gFGtKu"
+  >
+    <div>
+      <h2>
+        Join and discover more
+      </h2>
+    </div>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="sc-dcJsrY elahPx"
+      >
+        <label
+          htmlFor="email"
+        >
+          Enter your university email
+          :
+        </label>
+        <input
+          disabled={false}
+          id="email"
+          name="email"
+          onChange={[Function]}
+          placeholder="exampl@kumail.com"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-dcJsrY elahPx"
+      >
+        <label
+          htmlFor="firstName"
+        >
+          Enter your First Name
+          :
+        </label>
+        <input
+          disabled={false}
+          id="firstName"
+          name="firstName"
+          onChange={[Function]}
+          placeholder="Ex. John"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-dcJsrY elahPx"
+      >
+        <label
+          htmlFor="lastName"
+        >
+          Enter your Last Name
+          :
+        </label>
+        <input
+          disabled={false}
+          id="lastName"
+          name="lastName"
+          onChange={[Function]}
+          placeholder="Ex. Granit"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="sc-dcJsrY elahPx"
+      >
+        <label
+          htmlFor="gradYear"
+        >
+          Enter your Graduation Year
+          :
+        </label>
+        <input
+          disabled={false}
+          id="gradYear"
+          max={2033}
+          min={0}
+          name="gradYear"
+          onChange={[Function]}
+          placeholder="2026"
+          type="number"
+          value=""
+        />
+      </div>
+      <button
+        className="sc-fqkvVR hsobOz"
+        data-testid="loginBtn"
+        disabled={false}
+        type="submit"
+      >
+        Next
+      </button>
+    </form>
+    <div
+      className="sc-eqUAAy hqsFEm"
+    >
+      <p>
+        Already have an account ?
+         
+        <span
+          className="text-primary"
+        >
+          Log In
+        </span>
+      </p>
+      <p>
+        By clicking on 'Login' you've agreed to the
+        <br />
+        <span
+          className="text-primary"
+        >
+          Terms of Use
+        </span>
+         and
+         
+        <span
+          className="text-primary"
+        >
+          Privacy Policy.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+`;

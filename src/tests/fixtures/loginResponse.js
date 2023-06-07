@@ -1,0 +1,32 @@
+export const loginResponse = {
+  status: "success",
+  response_code: 200,
+  response_message: "success",
+  user: {
+    uid: "c675af77-eae6-4fa6-b6d5-746d732e6e87",
+    first_name: "Urooj",
+    last_name: "Khurshid",
+    name: "Urooj Khurshid",
+    university_email: "urooj@mycampusroots.com",
+    profile_picture:
+      "https://my-campus-bucket-staging.s3.amazonaws.com/media/profile_picture/23/01/19/c675af77-eae6-4fa6-b6d5-746d732e6e87.jpeg",
+    cover_photo:
+      "https://my-campus-bucket-staging.s3.amazonaws.com/media/cover_photo/23/01/19/c675af77-eae6-4fa6-b6d5-746d732e6e87.jpeg",
+    pronouns: "None",
+    bio: "Cool guy",
+    course_of_study: "Applied Behavioral Science",
+    degree: "Bachelors",
+    phone_number: "+2348055574272",
+    date_of_birth: "2026-01-01",
+    username: "urooj",
+    relationship_status: "None",
+    updated_profile: true,
+    date_joined: "2023-01-19T13:59:02.581031Z",
+    number_of_connections: 2,
+    new_connection_request: false,
+    number_of_connection_requests: 0,
+    class_of: "2025",
+    university: "My Campus Roots",
+  },
+  token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9",
+};
